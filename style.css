@@ -12,6 +12,10 @@ body{
    height: 100vh;
  
 }
+.inputContainer{
+   width: auto;
+   place-items: center;
+}
 
 .inputContainer input{
    border: none;
