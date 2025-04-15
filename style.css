@@ -2,15 +2,12 @@
    margin:0;
    padding: 0;
    box-sizing: border-box;
-   font-family:  cursive;   
+   font-family:   'Times New Roman'; 
 }
 body{
    
    background-color: aliceblue;
    place-items: center;
-   width: 100%;
-   height: 100vh;
- 
 }
 
 .inputContainer input{
@@ -18,10 +15,10 @@ body{
    margin-top:10px;
    padding: 0.7em;
    border-radius: 10px;
-   font-size: 1em;
+  
 }
 #displayInput{
-   width: 30em;
+   width: 400px;
 }
 #addTaskBtn{
    background-color: greenyellow;
