@@ -36,7 +36,7 @@ body{
 .task-list{
   margin: 20px;
   align-items: center;
-
+width: 65%;
 }
 .task{   
    cursor: pointer;
