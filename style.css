@@ -5,7 +5,7 @@
    font-family:   'Times New Roman'; 
 }
 body{
-   
+   padding:10px;
    background-color: aliceblue;
    place-items: center;
 }
