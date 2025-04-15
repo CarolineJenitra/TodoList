@@ -13,12 +13,10 @@ body{
  
 }
 .inputContainer{
-   
    display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
-   
 }
 
 .inputContainer input{
@@ -44,7 +42,7 @@ body{
 .task-list{
   margin: 20px;
   align-items: center;
-width: 65%;
+  width: 65%;
 }
 .task{   
    cursor: pointer;
@@ -65,7 +63,7 @@ h2{
 .content{
    margin-top: 20px;
    padding: 0.5rem;
-  
+   
 }
 .text{
   outline: none;
