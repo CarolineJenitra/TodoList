@@ -3,10 +3,12 @@
    padding: 0;
    box-sizing: border-box;
    font-family:   'Times New Roman'; 
+   
 }
 body{
-   padding:10px;
-   background-color: aliceblue;
+   width: 100%;
+   padding: auto;
+   background-color: pink;
    place-items: center;
 }
 
