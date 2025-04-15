@@ -13,12 +13,12 @@ body{
  
 }
 .inputContainer{
-   width:70%;
+   
    display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
-   position: fixed;
+   
 }
 
 .inputContainer input{
