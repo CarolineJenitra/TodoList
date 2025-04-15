@@ -12,21 +12,36 @@ body{
    place-items: center;
 }
 
-.inputContainer input{
-   border: none;
-   margin-top:10px;
-   padding: 0.7em;
-   border-radius: 10px;
-  
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px; /* optional spacing between input and button */
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
-#displayInput{
-   width: 400px;
+
+#displayInput {
+  flex: 1;
+  min-width: 0; /* allows shrinking on small screens */
+  padding: 0.7em;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
 }
-#addTaskBtn{
-   background-color: greenyellow;
-   margin-left: 5px;
-   cursor: pointer;
+
+#addTaskBtn {
+  flex-shrink: 0; /* prevents button from shrinking */
+  padding: 0.7em 1em;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  white-space: nowrap; /* prevent button text from wrapping */
 }
+
+
 #addTaskBtn:hover
 {
    background-color: rgb(85, 247, 52);
