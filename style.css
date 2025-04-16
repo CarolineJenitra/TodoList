@@ -8,6 +8,7 @@
 body{ 
    background-color:aliceblue;
    margin: 25px;
+   place-items: center;
 
 }
 .container{
